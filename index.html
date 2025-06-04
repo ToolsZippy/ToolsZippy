@@ -396,8 +396,8 @@
             <nav>
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Tools</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#tools">Tools</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
             <div class="contact-email">
@@ -411,7 +411,7 @@
         <div class="container">
             <h1>Your Time-Saving Working Tools, All in One Place</h1>
             <p>Convert, calculate, compress, and simplify your everyday tasks — fast and free.</p>
-            <a href="#" class="cta-button">Explore Tools</a>
+            <a href="#tools" class="cta-button">Explore Tools</a>
             
             <div class="tool-icons">
                 <div class="tool-icon">
@@ -439,14 +439,15 @@
     <!-- Search Section -->
     <section class="search-section">
         <div class="container search-container">
-            <input type="text" placeholder="Search a tool...">
+            <input type="text" placeholder="Search a tool..." id="toolSearch">
             <i class="fas fa-search"></i>
         </div>
     </section>
     
-    <!-- Image Tools Section -->
-    <section class="tools-section">
+    <!-- Tools Sections -->
+    <section class="tools-section" id="tools">
         <div class="container">
+            <!-- Image Tools -->
             <div class="section-header">
                 <h2>🖼 Image Tools</h2>
                 <p>Enhance, convert, and optimize your images with our powerful tools</p>
@@ -459,7 +460,7 @@
                     </div>
                     <h3>Image Converter</h3>
                     <p>Convert between JPG, PNG, GIF, and more formats</p>
-                    <a href="#" class="tool-button">Use Tool</a>
+                    <a href="image-converter.html" class="tool-button">Use Tool</a>
                 </div>
                 
                 <div class="tool-card">
@@ -468,7 +469,7 @@
                     </div>
                     <h3>Image Compressor</h3>
                     <p>Reduce image file size without losing quality</p>
-                    <a href="#" class="tool-button">Use Tool</a>
+                    <a href="image-compressor.html" class="tool-button">Use Tool</a>
                 </div>
                 
                 <div class="tool-card">
@@ -477,7 +478,7 @@
                     </div>
                     <h3>Image Resizer</h3>
                     <p>Resize images to any dimension you need</p>
-                    <a href="#" class="tool-button">Use Tool</a>
+                    <a href="image-resizer.html" class="tool-button">Use Tool</a>
                 </div>
                 
                 <div class="tool-card">
@@ -486,7 +487,7 @@
                     </div>
                     <h3>Image Cropper</h3>
                     <p>Crop images to remove unwanted areas</p>
-                    <a href="#" class="tool-button">Use Tool</a>
+                    <a href="image-cropper.html" class="tool-button">Use Tool</a>
                 </div>
                 
                 <div class="tool-card">
@@ -495,7 +496,7 @@
                     </div>
                     <h3>Image to Text (OCR)</h3>
                     <p>Extract text from images accurately</p>
-                    <a href="#" class="tool-button">Use Tool</a>
+                    <a href="image-to-text.html" class="tool-button">Use Tool</a>
                 </div>
                 
                 <div class="tool-card">
@@ -504,16 +505,12 @@
                     </div>
                     <h3>Image Rotator/Flipper</h3>
                     <p>Rotate or flip images in any direction</p>
-                    <a href="#" class="tool-button">Use Tool</a>
+                    <a href="image-rotator.html" class="tool-button">Use Tool</a>
                 </div>
             </div>
-        </div>
-    </section>
-    
-    <!-- Document Tools Section -->
-    <section class="tools-section" style="background-color: #f5f5f5;">
-        <div class="container">
-            <div class="section-header">
+            
+            <!-- Document Tools -->
+            <div class="section-header" style="margin-top: 60px;">
                 <h2>📄 Document Tools</h2>
                 <p>Manage and convert your documents with ease</p>
             </div>
@@ -525,7 +522,7 @@
                     </div>
                     <h3>PDF to Word / Word to PDF</h3>
                     <p>Convert between PDF and Word documents</p>
-                    <a href="#" class="tool-button">Use Tool</a>
+                    <a href="pdf-to-word.html" class="tool-button">Use Tool</a>
                 </div>
                 
                 <div class="tool-card">
@@ -534,7 +531,7 @@
                     </div>
                     <h3>PDF Compressor</h3>
                     <p>Reduce PDF file size while maintaining quality</p>
-                    <a href="#" class="tool-button">Use Tool</a>
+                    <a href="pdf-compressor.html" class="tool-button">Use Tool</a>
                 </div>
                 
                 <div class="tool-card">
@@ -543,7 +540,7 @@
                     </div>
                     <h3>PDF Merger & Splitter</h3>
                     <p>Combine or split PDF files as needed</p>
-                    <a href="#" class="tool-button">Use Tool</a>
+                    <a href="pdf-merger.html" class="tool-button">Use Tool</a>
                 </div>
                 
                 <div class="tool-card">
@@ -552,7 +549,7 @@
                     </div>
                     <h3>Document Converter</h3>
                     <p>Convert between various document formats</p>
-                    <a href="#" class="tool-button">Use Tool</a>
+                    <a href="document-converter.html" class="tool-button">Use Tool</a>
                 </div>
                 
                 <div class="tool-card">
@@ -561,7 +558,7 @@
                     </div>
                     <h3>PDF Lock/Unlock</h3>
                     <p>Add or remove passwords from PDF files</p>
-                    <a href="#" class="tool-button">Use Tool</a>
+                    <a href="pdf-lock.html" class="tool-button">Use Tool</a>
                 </div>
                 
                 <div class="tool-card">
@@ -570,16 +567,12 @@
                     </div>
                     <h3>eSign PDF</h3>
                     <p>Add digital signatures to your documents</p>
-                    <a href="#" class="tool-button">Use Tool</a>
+                    <a href="esign-pdf.html" class="tool-button">Use Tool</a>
                 </div>
             </div>
-        </div>
-    </section>
-    
-    <!-- Calculator Tools Section -->
-    <section class="tools-section">
-        <div class="container">
-            <div class="section-header">
+            
+            <!-- Calculator Tools -->
+            <div class="section-header" style="margin-top: 60px;">
                 <h2>🧮 Calculator Tools</h2>
                 <p>Perform calculations for various needs quickly</p>
             </div>
@@ -591,7 +584,7 @@
                     </div>
                     <h3>Scientific Calculator</h3>
                     <p>Advanced calculator for complex calculations</p>
-                    <a href="#" class="tool-button">Use Tool</a>
+                    <a href="scientific-calculator.html" class="tool-button">Use Tool</a>
                 </div>
                 
                 <div class="tool-card">
@@ -600,7 +593,7 @@
                     </div>
                     <h3>Age Calculator</h3>
                     <p>Calculate age from birth date to present</p>
-                    <a href="#" class="tool-button">Use Tool</a>
+                    <a href="age-calculator.html" class="tool-button">Use Tool</a>
                 </div>
                 
                 <div class="tool-card">
@@ -609,7 +602,7 @@
                     </div>
                     <h3>BMI Calculator</h3>
                     <p>Calculate your Body Mass Index</p>
-                    <a href="#" class="tool-button">Use Tool</a>
+                    <a href="bmi-calculator.html" class="tool-button">Use Tool</a>
                 </div>
                 
                 <div class="tool-card">
@@ -618,7 +611,7 @@
                     </div>
                     <h3>Loan EMI Calculator</h3>
                     <p>Calculate monthly loan payments</p>
-                    <a href="#" class="tool-button">Use Tool</a>
+                    <a href="loan-emi-calculator.html" class="tool-button">Use Tool</a>
                 </div>
                 
                 <div class="tool-card">
@@ -627,7 +620,7 @@
                     </div>
                     <h3>GST Calculator</h3>
                     <p>Calculate GST amounts and totals</p>
-                    <a href="#" class="tool-button">Use Tool</a>
+                    <a href="gst-calculator.html" class="tool-button">Use Tool</a>
                 </div>
                 
                 <div class="tool-card">
@@ -636,16 +629,12 @@
                     </div>
                     <h3>Currency Converter</h3>
                     <p>Convert between world currencies</p>
-                    <a href="#" class="tool-button">Use Tool</a>
+                    <a href="currency-converter.html" class="tool-button">Use Tool</a>
                 </div>
             </div>
-        </div>
-    </section>
-    
-    <!-- Text Tools Section -->
-    <section class="tools-section" style="background-color: #f5f5f5;">
-        <div class="container">
-            <div class="section-header">
+            
+            <!-- Text Tools -->
+            <div class="section-header" style="margin-top: 60px;">
                 <h2>🔤 Text Tools</h2>
                 <p>Manipulate and analyze text with our text utilities</p>
             </div>
@@ -657,7 +646,7 @@
                     </div>
                     <h3>Text Case Converter</h3>
                     <p>Change text between uppercase, lowercase and more</p>
-                    <a href="#" class="tool-button">Use Tool</a>
+                    <a href="text-case-converter.html" class="tool-button">Use Tool</a>
                 </div>
                 
                 <div class="tool-card">
@@ -666,7 +655,7 @@
                     </div>
                     <h3>Word & Character Counter</h3>
                     <p>Count words, characters, sentences and more</p>
-                    <a href="#" class="tool-button">Use Tool</a>
+                    <a href="word-counter.html" class="tool-button">Use Tool</a>
                 </div>
                 
                 <div class="tool-card">
@@ -675,7 +664,7 @@
                     </div>
                     <h3>Remove Duplicate Lines</h3>
                     <p>Clean up text by removing duplicate lines</p>
-                    <a href="#" class="tool-button">Use Tool</a>
+                    <a href="remove-duplicates.html" class="tool-button">Use Tool</a>
                 </div>
                 
                 <div class="tool-card">
@@ -684,7 +673,7 @@
                     </div>
                     <h3>Text Sorter</h3>
                     <p>Sort lines of text alphabetically or numerically</p>
-                    <a href="#" class="tool-button">Use Tool</a>
+                    <a href="text-sorter.html" class="tool-button">Use Tool</a>
                 </div>
                 
                 <div class="tool-card">
@@ -693,7 +682,7 @@
                     </div>
                     <h3>Text Reverser</h3>
                     <p>Reverse text, words, or character order</p>
-                    <a href="#" class="tool-button">Use Tool</a>
+                    <a href="text-reverser.html" class="tool-button">Use Tool</a>
                 </div>
                 
                 <div class="tool-card">
@@ -702,16 +691,12 @@
                     </div>
                     <h3>Text Encryptor/Decryptor</h3>
                     <p>Encrypt and decrypt text for security</p>
-                    <a href="#" class="tool-button">Use Tool</a>
+                    <a href="text-encryptor.html" class="tool-button">Use Tool</a>
                 </div>
             </div>
-        </div>
-    </section>
-    
-    <!-- Web/Developer Tools Section -->
-    <section class="tools-section">
-        <div class="container">
-            <div class="section-header">
+            
+            <!-- Web/Developer Tools -->
+            <div class="section-header" style="margin-top: 60px;">
                 <h2>🌐 Web/Developer Tools</h2>
                 <p>Essential tools for developers and web professionals</p>
             </div>
@@ -723,7 +708,7 @@
                     </div>
                     <h3>HTML/CSS/JS Minifier</h3>
                     <p>Minify your code to reduce file size</p>
-                    <a href="#" class="tool-button">Use Tool</a>
+                    <a href="code-minifier.html" class="tool-button">Use Tool</a>
                 </div>
                 
                 <div class="tool-card">
@@ -732,7 +717,7 @@
                     </div>
                     <h3>JSON Formatter & Validator</h3>
                     <p>Format and validate JSON data</p>
-                    <a href="#" class="tool-button">Use Tool</a>
+                    <a href="json-formatter.html" class="tool-button">Use Tool</a>
                 </div>
                 
                 <div class="tool-card">
@@ -741,7 +726,7 @@
                     </div>
                     <h3>Base64 Encoder/Decoder</h3>
                     <p>Encode and decode Base64 strings</p>
-                    <a href="#" class="tool-button">Use Tool</a>
+                    <a href="base64-converter.html" class="tool-button">Use Tool</a>
                 </div>
                 
                 <div class="tool-card">
@@ -750,7 +735,7 @@
                     </div>
                     <h3>URL Encoder/Decoder</h3>
                     <p>Encode and decode URL strings</p>
-                    <a href="#" class="tool-button">Use Tool</a>
+                    <a href="url-converter.html" class="tool-button">Use Tool</a>
                 </div>
                 
                 <div class="tool-card">
@@ -759,7 +744,7 @@
                     </div>
                     <h3>Color Picker & Converter</h3>
                     <p>Pick colors and convert between formats</p>
-                    <a href="#" class="tool-button">Use Tool</a>
+                    <a href="color-picker.html" class="tool-button">Use Tool</a>
                 </div>
                 
                 <div class="tool-card">
@@ -768,14 +753,14 @@
                     </div>
                     <h3>Regex Tester</h3>
                     <p>Test and debug regular expressions</p>
-                    <a href="#" class="tool-button">Use Tool</a>
+                    <a href="regex-tester.html" class="tool-button">Use Tool</a>
                 </div>
             </div>
         </div>
     </section>
     
     <!-- Footer -->
-    <footer>
+    <footer id="contact">
         <div class="container">
             <div class="footer-content">
                 <a href="#" class="footer-logo">ToolsZippy</a>
@@ -786,8 +771,8 @@
                 </div>
                 
                 <div class="footer-links">
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms of Use</a>
+                    <a href="privacy-policy.html">Privacy Policy</a>
+                    <a href="terms-of-use.html">Terms of Use</a>
                 </div>
                 
                 <div class="copyright">
@@ -798,22 +783,49 @@
     </footer>
     
     <script>
-        // Simple search functionality
-        document.querySelector('.search-container input').addEventListener('input', function(e) {
+        // Enhanced search functionality
+        document.getElementById('toolSearch').addEventListener('input', function(e) {
             const searchTerm = e.target.value.toLowerCase();
-            if(searchTerm.length > 2) {
-                // In a real implementation, this would filter tools
-                console.log('Searching for:', searchTerm);
+            const toolCards = document.querySelectorAll('.tool-card');
+            
+            if(searchTerm.length > 0) {
+                toolCards.forEach(card => {
+                    const toolName = card.querySelector('h3').textContent.toLowerCase();
+                    const toolDesc = card.querySelector('p').textContent.toLowerCase();
+                    
+                    if(toolName.includes(searchTerm) || toolDesc.includes(searchTerm)) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            } else {
+                toolCards.forEach(card => {
+                    card.style.display = 'block';
+                });
             }
         });
         
         // Smooth scrolling for anchor links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
+            anchor.addEventListener('click', function(e) {
                 e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
+                const targetId = this.getAttribute('href');
+                if(targetId !== '#') {
+                    document.querySelector(targetId).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        // Make all "Use Tool" buttons work (in a real site these would link to actual tool pages)
+        document.querySelectorAll('.tool-button').forEach(button => {
+            button.addEventListener('click', function(e) {
+                if(this.getAttribute('href') === '#') {
+                    e.preventDefault();
+                    alert('This is a demo. In a real implementation, this would open the tool page.');
+                }
             });
         });
     </script>
